@@ -73,8 +73,8 @@ figure {
 }
 hr {
     height:0;
-    -webkit-box-sizing:content-box;
-    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box;/*chrome、safar*/
+    -moz-box-sizing:content-box;/*firefox*/
     box-sizing:content-box
 }
 pre {
