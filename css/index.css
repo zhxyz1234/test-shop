@@ -10,12 +10,39 @@
 	margin:0 auto;
 }
 .layer3center-left{
-	width: 223px;
-	height: 550px;
+	border-left:1px solid red;
+	border-right:1px solid red;
+	border-bottom:1px solid red;
+	width:225px;
+	height:550px;
 	float: left;
+	position: relative;
 }
 .layer3center-right{
 	width:735px;
 	height:550px;
 	float:right;
+}
+.layer3center-left  li{
+	width:223px;
+	height: 42px;
+	list-style-type: none;
+	top:50%;
+}
+
+.layer3center-left dl{
+	margin-left:20px;
+	border-bottom:1px dashed #C6C6C6;
+	position: relative;
+}
+.layer3center-left span{
+	width: 200px;
+	height: 20px;
+	margin-left:10px;
+	margin-top:14px;
+}
+.bold{
+	font-weight:bold;
+	font-size:14px;
+	color:black;
 }
