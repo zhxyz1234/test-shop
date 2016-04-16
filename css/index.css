@@ -135,24 +135,3 @@ a:link {
 .ban_ul_3 i{background-position:0 -160px;}
 .ban_ul_4 i{background-position:0 -160px;}
 
-.layer3{
-	border-top:1px solid rgb(255,68,102);
-	width:100%;
-	height: 550px;
-}
-.layer3center{
-	width:960px;
-	height: 550px;
-	margin:0 auto;
-}
-.layer3center-left{
-	width: 223px;
-	height: 550px;
-	float: left;
-}
-.layer3center-right{
-	width:735px;
-	height:550px;
-	float:right;
-}
-
