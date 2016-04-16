@@ -1,137 +1,77 @@
-/* CSS Document */
-*{
-	/*页面上的元素  默认有内外边距的，消除所有元素的内外边距*/
-	margin:0px;
-	padding:0px;
-	font-size:12px;
-
-}	
-a:link {
-	color: #666666; text-decoration:none;
-}
-
-/****顶部信息 包含登录、注册、购物车****/
-#ban{
-	border:0px solid #ff0000;
+/*div3*/
+.layer3{
+	border-top:1px solid rgb(255,68,102);
 	width:100%;
-	height:176px;
+	height: 550px;
 }
-.ban_top{
-	border-bottom:1px solid #DDDDDD;
-	width:100%;
-	height:31px;
-	background-color:#F2F2F2;
+/*设置居中*/
+.layer3center{
+	width:960px;
+	height: 550px;
+	margin:0 auto;
 }
-.ban_ul{
-	border:0px solid #ff0000;
-	width:520px;
+/*左边左浮动*/
+.layer3center-left{
+	border-left:1px solid red;
+	border-right:1px solid red;
+	border-bottom:1px solid red;
+	width:225px;
+	height:550px;
+	float: left;
+	position: relative;
+}
+/*设置右边右浮动*/
+.layer3center-right{
+	width:975px;
+	height:530px;
 	float:right;
-	list-style:none;
-	margin:auto;
-}
-.ban_ul_1{
-	border-right:1px solid #DDDDDD;
-	width:100px;
-	float:left;
-	margin:0 auto;
-	margin-top:6px;
-}
-.ban_ul_2{
-	border-right:1px solid #DDDDDD;
-	width:100px;
-	float:left;
-	margin:0 auto;
-	margin-top:6px;
-}
-.ban_ul_3{
-	border-right:1px solid #DDDDDD;
-	width:100px;
-	float:left;
-	margin:0 auto;
-	margin-top:6px;
-}
-.ban_ul_4{
-	border-right:0px solid #DDDDDD;
-	width:100px;
-	float:left;
-	margin:0 auto;
-	margin-top:6px;
-}
-#ban_ul_li_1{
-	border:0px solid #ff000f;
-	float:left;
-	margin-left:15px;
-}
-#ban_ul_li_2{
-	border:0px solid #ff000f;
-	float:left;
-	margin-left:15px;
-}
-#ban_ul_li_3{
-	border:0px solid #ff000f;
-	float:left;
-	margin-left:15px;
-}
-#ban_ul_li_4{
-	border:0px solid #ff000f;
-	float:left;
-	margin-left:5px;
-}
+	}
+/*去掉li圆点*/
+.layer3center-left  li{
+	width:223px;
+	height: 42px;
+	list-style-type: none;
+	line-height:42px;
+	}
 
-
-#ban_ul_li_5{
-	border:0px solid #ff000f;
-	float:left;
-	margin-left:12px;
-}
-#ban_ul_li_6{
-	border:0px solid #ff000f;
-	float:left;
+.layer3center-left dl{
+	width: 202px;
+	height: 40px;
 	margin-left:20px;
+	border-bottom:1px dashed #C6C6C6;
+	position: relative;
+	margin-top:3x;
+	font-size: 14px;
 }
-
-#ban_ul_li_7{
-	border:0px solid #ff000f;
-	float:left;
+.layer3center-left span{
+	width: 200px;
+	height: 20px;
 	margin-left:10px;
+	margin-top:15px;
 }
-#ban_ul_li_8{
-	border:0px solid #ff000f;
-	float:left;
-	margin-left:5px;
+.layer3center-left a{
+	margin-left:1px;
 }
+/*设置类别字体*/
+.bold{
+	font-weight:bold;
+	font-size:16px;
+	color:black;
+}
+.color{
+	color: #FF4466;
+}
+.rr{
+	width: 218px;
+	height: 526px;
+	border:1px solid #C6C6C6;
+	float:right;
+	clear:both;
+}
+.rt{
 
-.ban_ul_2 i {
-	border:0px solid #ff00ff;
-    display: inline;
-    float: left;
-    margin: 0 0 0 12px;
-    height: 17px;
-    width: 21px
 }
-.ban_ul_3 i {
-	border:0px solid #ff00ff;
-    display: inline;
-    float: left;
-    margin: 7px 0 0 3px;
-    height: 4px;
-    width: 7px
+.img{
+	margin-top: 20px;
+	margin-left: 20px;
 }
-.ban_ul_4 i {
-	border:0px solid #ff00ff;
-    display: inline;
-    float: left;
-    margin: 7px 0 0 3px;
-    height: 4px;
-    width: 7px
-}
-
-/*雪碧图样式*/
-
-.ban_top i{
-	background:url(../image/upload_ieytszrsgaytmm3cgmzdambqmeyde_100x400.png) no-repeat;
-}
-.ban_ul_2 i{background-position:0 -112px;}
-.ban_ul_3 i{background-position:0 -160px;}
-.ban_ul_4 i{background-position:0 -160px;}
-
