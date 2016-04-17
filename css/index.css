@@ -1,12 +1,13 @@
 *{
-	/*页面上的元素  默认有内外边距的，消除所有元素的内外边距*/
+	/*页面上的元素  浏览器默认有内外边距的，消除所有元素的内外边距*/
 	margin:0px;
 	padding:0px;
 	font-size:12px;
 
-}	
+}
 a:link {
-	color: #666666; text-decoration:none;
+	color: #666666; 
+	text-decoration:none;
 }
 
 /****顶部信息 包含登录、注册、购物车****/
