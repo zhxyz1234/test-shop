@@ -12,7 +12,7 @@ a:link {
 
 /****顶部信息 包含登录、注册、购物车****/
 #ban{
-	border-bottom:1px solid #ff0000;
+	border-bottom:1px solid #FF4466;
 	width:100%;
 	height:176px;
 }
@@ -37,7 +37,7 @@ a:link {
 	margin-top:6px;
 }
 .ban_ul_2{
-	border-right:1px solid #DDDDDD;
+	border-right:0px solid #DDDDDD;
 	width:100px;
 	float:left;
 	margin:0 auto;
@@ -137,20 +137,22 @@ a:link {
 
 /******头部中间搜索部分*************/
 .ban_center{
-	border:1px solid #ff00ff;
+	border:0px solid #ff00ff;
 	width:1200px;
 	height:145px;
 	margin:0 auto;
 
 }
+/*********右侧**************/
 .ban_center_left{
-	border:1px solid #ff0000;
+	border:0px solid #ff0000;
 	width:225px;
 	margin-top:40px;
 	float:left;
 }
+/*********中间 搜索**************/
 .ban_center_center{
-	border:1px solid #00ff00;
+	border:0px solid #00ff00;
 	width:730px;
 	height:143px;
 	float:left;
@@ -180,10 +182,10 @@ a:link {
 	height:35px;
 	float:left;
 }
+/*********中间 中部小导航**************/
 .ban_center_center ul{
 	border:0px solid #ff00ff;
 	height:15px;
-	float:left;
 	list-style:none;
 	margin-top:5px;
 	margin-left:102px;
@@ -196,9 +198,36 @@ a:link {
 	margin:auto;
 	margin-left:22px;
 }
+/*********中间 底部**************/
+.ban_center_dow_1{
+	border:0px solid #00ff00;
+	float:left;
+	margin-left:25px;
+	margin-top:2px;
+}
+.ban_center_dow_2{
+	border:0px solid #00ff00;
+	float:left;
+	margin-top:10px;
+	margin-left:60px;	
+}
+.ban_center_dow_2 a:link{
+	font-size:14px;
+	color:#000000;
+	font-weight:bold;
+	font-family: "宋体",sans-serif;
+}
+.ban_center_dow_2 a:hover{
+	font-size:14px;
+	color:#000000;
+	font-weight:bold;
+	text-decoration:underline;
+	font-family: "宋体",sans-serif;
+}
 
+/*********右侧**************/
 .ban_center_right{
-	border:1px solid #ff0000;
+	border:0px solid #ff0000;
 	width:240px;
 	height:143px;
 	float:right;
@@ -209,10 +238,6 @@ a:link {
 	margin:50px  0 0 80px ;
 	float:left;
 }
-
-
-
-
 
 /*div3*/
 .layer3{
